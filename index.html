@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Sounds System - Professional Audio Solutions</title>
+    
+    <!-- Bulma CSS Framework -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar is-dark is-fixed-top" id="navbar">
+        <div class="navbar-brand">
+            <a class="navbar-item" href="#home">
+                <img src="images/MSS logo.jpg" alt="MSS Logo" class="navbar-logo">
+            </a>
+            <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" id="navbarBurger">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
+        <div id="navbarMenu" class="navbar-menu">
+            <div class="navbar-end">
+                <a class="navbar-item scroll-link" href="#home">Home</a>
+                <a class="navbar-item scroll-link" href="#about">About</a>
+                <a class="navbar-item scroll-link" href="#services">Services</a>
+                <a class="navbar-item scroll-link" href="#contact">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero is-fullheight hero-section" id="home">
+        <div class="hero-background-overlay"></div>
+        <div class="hero-content">
+            <div class="container">
+                <div class="columns is-vcentered hero-columns" style="min-height: calc(100vh - 60px);">
+                    <!-- Logo Column -->
+                    <div class="column is-5-desktop is-full-mobile has-text-centered-mobile">
+                        <div class="logo-wrapper">
+                            <img src="images/MSS logo.jpg" alt="Music Sounds System Logo" class="logo-featured">
+                        </div>
+                    </div>
+                    
+                    <!-- Text Content Column -->
+                    <div class="column is-7-desktop is-full-mobile has-text-left-desktop has-text-centered-mobile">
+                        <div class="hero-text-content">
+                            <h1 class="title is-1 mss-title mb-3">Music Sounds System</h1>
+                            <h2 class="subtitle is-3 mss-subtitle mb-5">Professional Audio Solutions</h2>
+                            
+                            <div class="hero-mission mb-6">
+                                <p class="is-size-5 mb-3">
+                                    <strong class="has-text-white">Our Goal:</strong>
+                                </p>
+                                <p class="is-size-4 hero-tagline mb-4">
+                                    To Be a Better Musician
+                                </p>
+                                <p class="is-size-5 hero-description">
+                                    NOT to be better than other musicians
+                                </p>
+                            </div>
+                            
+                            <div class="mt-6">
+                                <a href="#contact" class="button is-large is-primary scroll-link">
+                                    <span class="icon">
+                                        <i class="fas fa-arrow-right"></i>
+                                    </span>
+                                    <span>Get In Touch</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section" id="about">
+        <div class="container">
+            <div class="content">
+                <h1 class="title is-2 has-text-centered mb-6" style="color: #ffffff;">About Us</h1>
+                <div class="columns is-centered">
+                    <div class="column is-8">
+                        <div class="box mss-box">
+                            <h2 class="title is-4 mss-accent">Musician & Sound Engineer</h2>
+                            <p class="is-size-5 mb-4" style="color: var(--mss-text-light);">
+                                At Music Sounds System, we believe that the journey of musical growth is a personal one. We're dedicated to helping musicians and bands reach their full potential through professional audio equipment, expert guidance, and quality sound solutions.
+                            </p>
+                            <p class="is-size-5 mb-4" style="color: var(--mss-text-light);">
+                                Whether you're a solo artist, a band, or a sound engineer, our mission is to provide you with the best audio equipment and services to elevate your performances and recordings.
+                            </p>
+                            
+                            <div class="columns mt-5">
+                                <div class="column">
+                                    <div class="box contact-info-box">
+                                        <p class="has-text-weight-bold mss-accent mb-2" style="font-size: 1.1rem;">📍 Location</p>
+                                        <p style="color: var(--mss-text-light); font-size: 1rem;">769 Garcia Street<br>Pagsanjan, Laguna</p>
+                                    </div>
+                                </div>
+                                <div class="column">
+                                    <div class="box contact-info-box">
+                                        <p class="has-text-weight-bold mss-accent mb-2" style="font-size: 1.1rem;">📧 Email</p>
+                                        <p style="color: var(--mss-text-light); font-size: 1rem;"><a href="mailto:denrusselsanchez@gmail.com" style="color: var(--mss-accent);">denrusselsanchez@gmail.com</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="section is-light" id="services">
+        <div class="container">
+            <h1 class="title is-2 has-text-centered mb-6">Our Services</h1>
+            
+            <div class="columns is-multiline">
+                <!-- Service 1: Sound System Rental -->
+                <div class="column is-full-mobile is-half-tablet is-one-third-desktop">
+                    <div class="card service-card">
+                        <div class="card-image">
+                            <figure class="image is-4by3">
+                                <div class="service-icon"><i class="fas fa-volume-up"></i></div>
+                            </figure>
+                        </div>
+                        <div class="card-content">
+                            <p class="title is-5 mss-accent" style="color: var(--mss-accent);">PA System Rental</p>
+                            <p class="mb-3" style="color: var(--mss-text-light);">
+                                Professional sound amplification for live events and performances.
+                            </p>
+                            <ul class="is-size-6" style="color: var(--mss-text-light);">
+                                <li>✓ 5000W Main Amplification</li>
+                                <li>✓ Line Array Speakers</li>
+                                <li>✓ Subwoofers for Deep Bass</li>
+                                <li>✓ Professional Mixing Console</li>
+                                <li>✓ Wireless Microphones (2-4 units)</li>
+                                <li>✓ Full Setup & Technical Support</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Service 2: Studio Recording -->
+                <div class="column is-full-mobile is-half-tablet is-one-third-desktop">
+                    <div class="card service-card">
+                        <div class="card-image">
+                            <figure class="image is-4by3">
+                                <div class="service-icon"><i class="fas fa-microphone"></i></div>
+                            </figure>
+                        </div>
+                        <div class="card-content">
+                            <p class="title is-5 mss-accent">Studio Recording</p>
+                            <p class="mb-3">
+                                Professional recording services for tracks and full albums.
+                            </p>
+                            <ul class="is-size-6">
+                                <li>✓ Acoustically Treated Studio</li>
+                                <li>✓ Professional Microphones</li>
+                                <li>✓ Audio Interface (24-bit/192kHz)</li>
+                                <li>✓ Production & Mixing</li>
+                                <li>✓ Mastering Services</li>
+                                <li>✓ Multi-track Recording Capability</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Service 3: Event Sound Design -->
+                <div class="column is-full-mobile is-half-tablet is-one-third-desktop">
+                    <div class="card service-card">
+                        <div class="card-image">
+                            <figure class="image is-4by3">
+                                <div class="service-icon"><i class="fas fa-music"></i></div>
+                            </figure>
+                        </div>
+                        <div class="card-content">
+                            <p class="title is-5 mss-accent">Event Sound Design</p>
+                            <p class="mb-3">
+                                Customized audio solutions for concerts, festivals, and special events.
+                            </p>
+                            <ul class="is-size-6">
+                                <li>✓ Venue Assessment & Planning</li>
+                                <li>✓ Equipment Customization</li>
+                                <li>✓ Live Sound Engineering</li>
+                                <li>✓ Real-time Audio Mixing</li>
+                                <li>✓ Backup Equipment</li>
+                                <li>✓ Post-Event Support</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Service 4: Band Rehearsal Space -->
+                <div class="column is-full-mobile is-half-tablet is-one-third-desktop">
+                    <div class="card service-card">
+                        <div class="card-image">
+                            <figure class="image is-4by3">
+                                <div class="service-icon"><i class="fas fa-guitar"></i></div>
+                            </figure>
+                        </div>
+                        <div class="card-content">
+                            <p class="title is-5 mss-accent">Rehearsal Space Rental</p>
+                            <p class="mb-3">
+                                Fully equipped rehearsal studios for bands and musicians.
+                            </p>
+                            <ul class="is-size-6">
+                                <li>✓ Soundproofed Rooms</li>
+                                <li>✓ Built-in PA System</li>
+                                <li>✓ Drum Kits & Amplifiers</li>
+                                <li>✓ Hourly & Monthly Rates</li>
+                                <li>✓ Climate Controlled</li>
+                                <li>✓ Parking Available</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Service 5: Equipment Sales & Support -->
+                <div class="column is-full-mobile is-half-tablet is-one-third-desktop">
+                    <div class="card service-card">
+                        <div class="card-image">
+                            <figure class="image is-4by3">
+                                <div class="service-icon"><i class="fas fa-headphones"></i></div>
+                            </figure>
+                        </div>
+                        <div class="card-content">
+                            <p class="title is-5 mss-accent">Equipment Sales</p>
+                            <p class="mb-3">
+                                New and quality used audio equipment from industry leaders.
+                            </p>
+                            <ul class="is-size-6">
+                                <li>✓ Microphones & Headphones</li>
+                                <li>✓ Amplifiers & Speakers</li>
+                                <li>✓ Audio Interfaces</li>
+                                <li>✓ Cables & Accessories</li>
+                                <li>✓ Competitive Pricing</li>
+                                <li>✓ Expert Recommendations</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Service 6: Consultation & Training -->
+                <div class="column is-full-mobile is-half-tablet is-one-third-desktop">
+                    <div class="card service-card">
+                        <div class="card-image">
+                            <figure class="image is-4by3">
+                                <div class="service-icon"><i class="fas fa-chalkboard-user"></i></div>
+                            </figure>
+                        </div>
+                        <div class="card-content">
+                            <p class="title is-5 mss-accent">Technical Consultation</p>
+                            <p class="mb-3">
+                                Expert guidance on audio setup and professional development.
+                            </p>
+                            <ul class="is-size-6">
+                                <li>✓ System Design & Planning</li>
+                                <li>✓ Equipment Selection</li>
+                                <li>✓ Sound Engineering Training</li>
+                                <li>✓ Troubleshooting Support</li>
+                                <li>✓ One-on-One Sessions</li>
+                                <li>✓ Online Consultations</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section" id="contact">
+        <div class="container">
+            <h1 class="title is-2 has-text-centered mb-6">Contact Us</h1>
+            
+            <div class="columns is-centered">
+                <div class="column is-8">
+                    <div class="columns is-multiline">
+                        <!-- Contact Info -->
+                        <div class="column is-half">
+                            <div class="box mss-box">
+                                <h3 class="title is-4 mss-accent mb-4">Get In Touch</h3>
+                                
+                                <div class="mb-5">
+                                    <p class="has-text-weight-bold mb-2"><i class="fas fa-map-marker-alt mss-accent mr-2"></i>Address</p>
+                                    <p>769 Garcia Street<br>Pagsanjan, Laguna</p>
+                                </div>
+
+                                <div class="mb-5">
+                                    <p class="has-text-weight-bold mb-2"><i class="fas fa-envelope mss-accent mr-2"></i>Email</p>
+                                    <p><a href="mailto:denrusselsanchez@gmail.com" class="has-text-link">denrusselsanchez@gmail.com</a></p>
+                                </div>
+
+                                <div class="mb-5">
+                                    <p class="has-text-weight-bold mb-2"><i class="fas fa-clock mss-accent mr-2"></i>Hours</p>
+                                    <p>Monday - Friday: 9AM - 6PM<br>
+                                       Saturday: 10AM - 4PM<br>
+                                       Sunday: Closed</p>
+                                </div>
+
+                                <div>
+                                    <p class="has-text-weight-bold mb-3"><i class="fas fa-share-alt mss-accent mr-2"></i>Follow Us</p>
+                                    <a href="#" class="button is-small is-primary mr-2"><i class="fab fa-facebook-f"></i></a>
+                                    <a href="#" class="button is-small is-primary mr-2"><i class="fab fa-twitter"></i></a>
+                                    <a href="#" class="button is-small is-primary mr-2"><i class="fab fa-instagram"></i></a>
+                                    <a href="#" class="button is-small is-primary"><i class="fab fa-youtube"></i></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Contact Form -->
+                        <div class="column is-half">
+                            <form id="contactForm" class="box mss-box">
+                                <h3 class="title is-4 mss-accent mb-4">Send Message</h3>
+                                
+                                <div class="field">
+                                    <label class="label">Name</label>
+                                    <div class="control has-icons-left">
+                                        <input class="input" type="text" name="name" placeholder="Your name" required>
+                                        <span class="icon is-left">
+                                            <i class="fas fa-user"></i>
+                                        </span>
+                                    </div>
+                                </div>
+
+                                <div class="field">
+                                    <label class="label">Email</label>
+                                    <div class="control has-icons-left">
+                                        <input class="input" type="email" name="email" placeholder="your@email.com" required>
+                                        <span class="icon is-left">
+                                            <i class="fas fa-envelope"></i>
+                                        </span>
+                                    </div>
+                                </div>
+
+                                <div class="field">
+                                    <label class="label">Subject</label>
+                                    <div class="control">
+                                        <input class="input" type="text" name="subject" placeholder="Subject" required>
+                                    </div>
+                                </div>
+
+                                <div class="field">
+                                    <label class="label">Message</label>
+                                    <div class="control">
+                                        <textarea class="textarea" name="message" placeholder="Your message..." rows="5" required></textarea>
+                                    </div>
+                                </div>
+
+                                <div class="field is-grouped">
+                                    <div class="control">
+                                        <button class="button is-primary is-loading-ready" type="submit">
+                                            <span class="icon">
+                                                <i class="fas fa-paper-plane"></i>
+                                            </span>
+                                            <span>Send Message</span>
+                                        </button>
+                                    </div>
+                                </div>
+
+                                <div id="formMessage" class="message is-hidden mt-3">
+                                    <div class="message-body" id="formMessageBody"></div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer is-dark">
+        <div class="content has-text-centered">
+            <p>
+                <strong>Music Sounds System</strong> - Professional Audio Solutions for Musicians and Bands
+            </p>
+            <p>
+                769 Garcia Street, Pagsanjan, Laguna | 
+                <a href="mailto:denrusselsanchez@gmail.com">denrusselsanchez@gmail.com</a>
+            </p>
+            <p>
+                <small>&copy; 2025 Music Sounds System. All rights reserved. | Helping Musicians Grow Musically</small>
+            </p>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="js/main.js"></script>
+</body>
+</html>
