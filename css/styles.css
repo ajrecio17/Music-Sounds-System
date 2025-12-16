@@ -257,7 +257,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100px;
+    height: 150px;
     background: linear-gradient(135deg, var(--mss-primary) 0%, var(--mss-primary-light) 100%);
     font-size: 3.5rem;
     color: var(--mss-accent);
